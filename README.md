@@ -5,6 +5,8 @@ Flow is comunication library based on [protobuf-net](https://github.com/protobuf
 
 This project was initially part of an internal backup solution (hence some of backup-related unused messages, left for reference).
 
+Developed using .NET core 5.0, not sure about compatibility.
+
 ## Usage
 
 As Flow is only meant to be a channel of communication, it does not handle the connection itself, and it does require the application to provide with one or more already accepted clients.
